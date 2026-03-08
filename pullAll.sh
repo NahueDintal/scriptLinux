@@ -16,3 +16,5 @@ for i in "${directorios[@]}"; do
   git -C "$i" pull
   echo -e "$i"
 done
+
+cd
