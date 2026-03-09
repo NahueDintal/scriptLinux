@@ -6,6 +6,7 @@ directorios=(
   ~/.tmux/
   ~/Estudio/scriptLinux/
   ~/Estudio/javapracticas/
+  ~/Estudio/podman/
   ~/.jc-cli/
   ~/.tk/
   ~/Work/
