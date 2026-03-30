@@ -11,6 +11,7 @@ directorios=(
   ~/.tk/
   ~/Work/
   ~/.syntaxHelp/
+  ~/Estudio/2doDesarrollo/
 )
 
 for i in "${directorios[@]}"; do
