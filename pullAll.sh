@@ -4,15 +4,16 @@ directorios=(
   ~/.config/kitty/
   ~/.config/nvim/
   ~/.tmux/
+  ~/.jc-cli/
+  ~/.tk/
+  ~/.syntaxHelp/
   ~/Estudio/scriptLinux/
   ~/Estudio/javapracticas/
   ~/Estudio/podman/
-  ~/.jc-cli/
-  ~/.tk/
-  ~/Work/
-  ~/.syntaxHelp/
   ~/Estudio/2doDesarrollo/
   ~/Estudio/ProgramacionII/
+  ~/Estudio/C/
+  ~/Work/
 )
 
 for i in "${directorios[@]}"; do
