@@ -13,6 +13,7 @@ directorios=(
   ~/Estudio/2doDesarrollo/
   ~/Estudio/ProgramacionII/
   ~/Estudio/C/
+  ~/Estudio/TesinaReservasHotel/
   ~/Work/
 )
 
