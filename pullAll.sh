@@ -14,6 +14,7 @@ directorios=(
   ~/Estudio/ProgramacionII/
   ~/Estudio/C/
   ~/Estudio/TesinaReservasHotel/
+  ~/Estudio/GestorStockCerrajeria/
   ~/Work/
 )
 
