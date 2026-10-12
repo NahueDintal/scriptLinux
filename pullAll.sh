@@ -15,15 +15,15 @@ directorios=(
   ~/Estudio/C/
   ~/Estudio/TesinaReservasHotel/
   ~/Estudio/GestorStockCerrajeria/
-  ~/Estudio/APIStats/
+  ~/.apiStats/
   ~/Estudio/vms/
   ~/Work/
 
 )
 
 for i in "${directorios[@]}"; do
-  git -C "$i" pull
   echo -e "$i"
+  git -C "$i" pull
 done
 
 cd
