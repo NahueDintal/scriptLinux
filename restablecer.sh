@@ -1,6 +1,12 @@
 #!/bin/bash
 
 ARCHIVO="$1"
-RUTA=""
+RUTA=$(grep "$ARCHIVO" ~/Remove/.Rutas.md | awk '{print $1}')
 
-mv $ARCHIVO $RUTA
+if [ ! -f "$RUTA" ]; then
+  echo "Ruta encontrada, restauración exitosa"
+  exit 1
+
+  mv -- "$ARCHIVO" "/$RUTA"
+fi
+

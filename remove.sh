@@ -5,7 +5,7 @@
 ARCHIVO="$1"
 
 # Se encarga de escribir en las rutas para luego otro script de restablecer el archivo.
-echo $(pwd)'/'$ARCHIVO.$(date) >> ~/Remove/.Rutas.md
+echo $(pwd) $ARCHIVO $(date +%F) >> ~/Remove/.Rutas.md
 
 # Notificación y acción...
 echo "$ARCHIVO enviado a ~/Remove..."
